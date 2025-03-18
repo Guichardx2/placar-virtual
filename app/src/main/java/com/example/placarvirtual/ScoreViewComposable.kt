@@ -43,15 +43,13 @@ import androidx.compose.ui.tooling.preview.Preview
 fun ScoreView(team1: Score, team2: Score){
     Column(
         modifier = Modifier
-            .fillMaxSize()
-            .background(Color.Yellow),
+            .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ){
         Row(
             modifier = Modifier
-                .fillMaxWidth()
-                .background(Color.Red),
+                .fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceEvenly
         ){
             TeamScore(team1)
